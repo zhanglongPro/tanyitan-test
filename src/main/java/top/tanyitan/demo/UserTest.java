@@ -8,5 +8,6 @@ package top.tanyitan.demo;
 public class UserTest {
     public static void main(String[] args) {
         System.err.println("admin");
+        System.err.println("admin1");
     }
 }
