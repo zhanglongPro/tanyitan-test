@@ -1,5 +1,8 @@
 package top.tanyitan.demo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @description: UserTest
  * @author: ZhangLong
@@ -7,7 +10,9 @@ package top.tanyitan.demo;
  */
 public class UserTest {
     public static void main(String[] args) {
-        System.err.println("admin");
+        List<Object> objects = new ArrayList<>();
+        objects.add("田岳云");
+        System.err.println("admin"+":"+objects);
         System.err.println("admin1");
     }
 }
